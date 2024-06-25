@@ -1,2 +1,2 @@
-# Caculator
+# Calculator
 Simple Web based calculator 
