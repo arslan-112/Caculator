@@ -4,6 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: cadetblue;
+    overflow: hidden;
 }
 
 #title1{
@@ -39,6 +40,12 @@ body {
     margin: 25px;
     margin-bottom: 15px;
     border: 2px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 50px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
     
     
 }
@@ -101,4 +108,30 @@ body {
     cursor: pointer;
     font-family:  Arial, sans-serif;
 
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: cadetblue;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 150px;
+    font-weight: 200;
+}
+
+footer p {
+    margin: 0;
+    margin-right: 10px;
+}
+
+.github-logo {
+    display: flex;
+    align-items: center;
+    width: 24px;
+    height: 24px;
 }
